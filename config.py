@@ -1,8 +1,11 @@
+import os
+
 class Config:
     '''
     General configuration parent class
     '''
-    pass
+    NEWS_URL = 'https://newsapi.org/v2/everything?q={}apiKey={}'
+    API_KEY = '51664d7eabf94215b7a3a91eab4f0cad'
 
 
 
