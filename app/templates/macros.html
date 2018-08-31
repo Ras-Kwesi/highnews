@@ -1,8 +1,14 @@
 {% macro sources_category_list) %}
+
     {% for source in sources_category_list: %}
         <div class="card" id="cards">
             <img class="card-img-top" src="{{source.url}}" alt="{{source.name}}">
-            <div class="card-title"> {{source.name}}</div>
+            <div class="card-body">
+                <h5 class="card-title"> {{source.name}}</h5>
+                <p class="card-text">{{source.description}}</p>
+                <a href="{{source.url}}" class="btn btn-primary">{{source.name}}</a>
+            </div>
 
 
         </div>
+    {% endfor %}
