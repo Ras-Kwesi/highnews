@@ -18,4 +18,4 @@ def index():
     tech_news = request_news('technology')
     title = "Newsance"
 
-    return render_template('index.html',title=title, general = general_news, sports = sports_news, science = science_news, business = business_news, tech = tech_news, enter = entertainment_news)
+    return render_template('index.html',title=title, general=general_news, sports = sports_news, science = science_news, business = business_news, tech = tech_news, enter = entertainment_news)

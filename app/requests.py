@@ -19,12 +19,13 @@ def request_news(category):
     for sorting out
     '''
 
-    request_news_url = news_url.format(category, api_key)
+    request_news_url = news_url.format(category,api_key)
+    
     with urllib.request.urlopen(request_news_url) as url:
         request_news_data = url.read()
         request_news_response = json.loads(request_news_data)
 
-        news_call_response = None
+        source_list = None
 
         if request_news_response['sources']:
             source_dict_list = request_news_response['sources']
@@ -39,7 +40,7 @@ def process_source_dict(sources_category_list):
     source class
     '''
 
-    various_source_list = []
+    source_list = []
     for news_source in sources_category_list:
         id = news_source.get('id')
         name = news_source.get('name')
@@ -48,8 +49,8 @@ def process_source_dict(sources_category_list):
         language = news_source.get('language')
         country = news_source.get('country')
         
-        news_object = Source(id,name,category,url,language,country)
+        source_object = Source(id,name,category,url,language,country)
 
-        various_source_list.append(news_object)
+        source_list.append(source_object)
 
-        return various_source_list
+    return source_list

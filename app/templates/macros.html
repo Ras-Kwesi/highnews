@@ -1,6 +1,6 @@
-{% macro sources_category_list) %}
+{% macro displaySources(sources_category_list) %}
 
-    {% for source in sources_category_list: %}
+    {% for source in sources_category_list %}
         <div class="card" id="cards">
             <img class="card-img-top" src="{{source.url}}" alt="{{source.name}}">
             <div class="card-body">
@@ -12,3 +12,4 @@
 
         </div>
     {% endfor %}
+{% endmacro %}

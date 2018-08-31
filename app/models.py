@@ -1,4 +1,4 @@
-class Articles :
+class Articles:
     '''
     definition of the news class properties
     '''
@@ -16,7 +16,7 @@ class Articles :
 
 
 
-class Source :
+class Source:
     '''
     definition for the news sources class
     '''
@@ -32,7 +32,5 @@ class Source :
         self.country = country
 
 
-    def save_sources(self):
-        Source.sourceNewsList.append(self)
-        
+
         
