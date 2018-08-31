@@ -13,13 +13,13 @@ def configure_request(app):
 
 
 
-def request_news(source):
+def request_news(category):
     '''
-    Function to sort what content we want and
-    convert our dictionary of news data to a list
+    Function to sort whhat our api call has returned and pick the sources list
+    for sorting out
     '''
 
-    request_news_url = news_url.format(source, api_key)
+    request_news_url = news_url.format(category, api_key)
     with urllib.request.urlopen(request_news_url) as url:
         request_news_data = url.read()
         request_news_response = json.loads(request_news_data)
@@ -28,6 +28,28 @@ def request_news(source):
 
         if request_news_response['sources']:
             source_dict_list = request_news_response['sources']
-            news_list = process_source_dict(source_dict_list)
+            source_list = process_source_dict(source_dict_list)
 
-    return news_list
+    return source_list
+
+
+def process_source_dict(sources_category_list):
+    '''
+    Function to get the values of a news source dictionary and make them an object of the
+    source class
+    '''
+
+    various_source_list = []
+    for news_source in sources_category_list:
+        id = news_source.get('id')
+        name = news_source.get('name')
+        category = news_source.get('category')
+        url = news_source.get('url')
+        language = news_source.get('language')
+        country = news_source.get('country')
+        
+        news_object = Source(id,name,category,url,language,country)
+
+        various_source_list.append(news_object)
+
+        return various_source_list
