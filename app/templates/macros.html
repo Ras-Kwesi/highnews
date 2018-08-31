@@ -1,5 +1,8 @@
-{% macro newsArticle(newsArticlelist) %}
-    {% for article in newsArticleList: %}
-        <div class="card">
+{% macro sources_category_list) %}
+    {% for source in sources_category_list: %}
+        <div class="card" id="cards">
+            <img class="card-img-top" src="{{source.url}}" alt="{{source.name}}">
+            <div class="card-title"> {{source.name}}</div>
+
 
         </div>

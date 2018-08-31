@@ -32,3 +32,7 @@ class Source :
         self.country = country
 
 
+    def save_sources(self):
+        Source.sourceNewsList.append(self)
+        
+        
