@@ -8,22 +8,36 @@
         <title> Newsance </title>
         {% endif %}
 </head>
-
-{% import 'macros.html' as macro%}
+    {% extends 'base.html' %}
+    {% import 'macros.html' as macro%}
     <body>
+    {% block content %}
         <h2> News </h2>
-        <ul> {{macro.displaySources(general) </ul>
+        <ul>
+            {{ macro.displaySources(general) }}
+        </ul>
 
 
-        <ul> {{macro.displaySources(tech) </ul>
+        <ul>
+            {{ macro.displaySources(tech) }}
+        </ul>
 
-        <ul> {{macro.displaySources(sports) </ul>
+        <ul>
+            {{ macro.displaySources(sports) }}
+        </ul>
 
-        <ul> {{macro.displaySources(business) </ul>
+        <ul>
+            {{ macro.displaySources(business) }}
+        </ul>
 
-        <ul> {{macro.displaySources(enter) </ul>
+        <ul>
+            {{ macro.displaySources(enter) }}
+        </ul>
 
-        <ul> {{macro.displaySources(science) </ul>
-
+        <ul>
+            {{ macro.displaySources(science) }}
+        </ul>
+    {% endblock %}
     </body>
+
 </html>
