@@ -4,13 +4,15 @@ from .models import Articles,Source
 # Getting api key
 api_key = None
 
+articles_url = None
+
 news_url = None
 
 def configure_request(app):
-    global api_key,news_url
+    global api_key,news_url,articles_url
     api_key = app.config['API_KEY']
     news_url = app.config['NEWS_URL']
-
+    articles_url = app.config['ARTICLES_URL']
 
 
 def request_news(category):
@@ -56,4 +58,12 @@ def process_source_dict(sources_category_list):
 
     return source_list
 
-def 
+def request_articles(source_news_dict_list):
+    '''
+    Function to get the values of the news source dictionary keys and converting them to
+    an object of the articles class
+    '''
+
+    articles_list = []
+    for article in source_news_dict_list:
+        
