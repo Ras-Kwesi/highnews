@@ -3,7 +3,7 @@ from . import main
 from ..models import Articles, Source
 
 
-from ..requests import request_news, process_source_dict
+from ..requests import request_news, process_source_dict, request_articles, process_articles
 @main.route('/')
 def index():
     '''
@@ -19,3 +19,12 @@ def index():
     title = "Newsance"
 
     return render_template('index.html',title=title, general=general_news, sports = sports_news, science = science_news, business = business_news, tech = tech_news, enter = entertainment_news)
+
+@main.route('/articles/<source>')
+def article(source):
+    '''
+    The function to display our articles to the template
+    '''
+    source = request_articles(source)
+    title = "Nuisance"
+    return render_template('articles.html', title = title , source = source)
