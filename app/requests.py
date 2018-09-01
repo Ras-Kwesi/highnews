@@ -48,8 +48,9 @@ def process_source_dict(sources_category_list):
         url = news_source.get('url')
         language = news_source.get('language')
         country = news_source.get('country')
+        description = news_source.get('description')
         
-        source_object = Source(id,name,category,url,language,country)
+        source_object = Source(id,name,category,url,language,country,description)
 
         source_list.append(source_object)
 
