@@ -21,7 +21,7 @@ class Source:
     definition for the news sources class
     '''
 
-    sourceNewsList = []
+    
 
     def __init__(self, id, name, url, category, language, country,description):
         self.id = id
