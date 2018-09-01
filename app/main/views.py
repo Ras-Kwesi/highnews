@@ -25,6 +25,6 @@ def article(source):
     '''
     The function to display our articles to the template
     '''
-    source = request_articles(source)
+    source = request_articles('source')
     title = "Nuisance"
     return render_template('articles.html', title = title , source = source)

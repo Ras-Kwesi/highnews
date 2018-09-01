@@ -41,17 +41,16 @@ def request_articles(source):
     json to python dicts before conversion to objects
     '''
 
-    request_articles_url = news_url.format(source, api_key)
+    request_articles_url = articles_url.format(source, api_key)
 
     with urllib.request.urlopen(request_articles_url) as url:
         request_articles_data = url.read()
         request_articles_response = json.loads(request_articles_data)
 
-        articles_list = None
 
-        if request_articles_response['articles']:
-            article_dict_list = request_articles_response['articles']
-            articles_list = process_source_dict(article_dict_list)
+
+        article_dict_list = request_articles_response
+        articles_list = process_articles(article_dict_list)
 
     return articles_list
 
@@ -86,12 +85,12 @@ def process_articles(source_news_dict_list):
     '''
 
     articles_list = []
-    for articlee in source_news_dict_list:
-        title = articlee.get('title')
-        author = articlee.get('author')
-        description = articlee.get('description')
-        url = articlee.get('url')
-        urlToImage = articlee.get('urlToImage')
+    for article in source_news_dict_list:
+        title = article.get('title')
+        author = article.get('author')
+        description = article.get('description')
+        url = article.get('url')
+        urlToImage = article.get('urlToImage')
 
         article_object = Articles(title,author,description,url,urlToImage)
 
