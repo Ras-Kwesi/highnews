@@ -8,8 +8,8 @@ class Articles:
         self.author = author
         self.description = description
         self.url = url
-        self.image = urlToImage # The link to the URL will be object.image, which points to urlToImage
-        self.time = publishedAt
+        self.urlToImage = urlToImage # The link to the URL will be object.image, which points to urlToImage
+        self.publishedAt = publishedAt
 
 
 
@@ -33,5 +33,3 @@ class Source:
         self.description = description
 
 
-
-        
