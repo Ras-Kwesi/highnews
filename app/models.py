@@ -23,7 +23,7 @@ class Source:
 
 
 
-    def __init__(self, source, name, url, category, language, country,description):
+    def __init__(self, name, url, category, language, country,description):
         #self.source = source
         self.name = name
         self.url = url
