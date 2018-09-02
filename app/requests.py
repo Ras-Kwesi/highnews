@@ -93,7 +93,7 @@ def process_articles(source_news_dict_list):
         description = article.get('description')
         url = article.get('url')
         urlToImage = article.get('urlToImage')
-        #source = article.get('id')
+        publishedAt = article.get('publishedAt')
 
 
         # for id in d.get('sources',()):
@@ -108,7 +108,7 @@ def process_articles(source_news_dict_list):
         #     return source
 
 
-        article_object = Articles(title,author,description,url,urlToImage,)
+        article_object = Articles(title,author,description,url,urlToImage,publishedAt)
 
         articles_list.append(article_object)
 

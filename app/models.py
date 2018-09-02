@@ -3,13 +3,13 @@ class Articles:
     definition of the news class properties
     '''
 
-    def __init__(self,title,author,description,url,urlToImage,):
+    def __init__(self,title,author,description,url,urlToImage,publishedAt):
         self.title = title
         self.author = author
         self.description = description
         self.url = url
         self.urlToImage = urlToImage # The link to the URL will be object.image, which points to urlToImage
-
+        self.publishedAt = publishedAt
 
 
 
