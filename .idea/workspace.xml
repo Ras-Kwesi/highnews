@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6e8044-93cf-4f98-8760-ead26b9d2ce9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/test_sources.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_sources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
           <entry key="css" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="21" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="30" />
           <entry key="sh" value="1" />
         </counts>
@@ -38,7 +38,7 @@
           <entry key="Bash" value="1" />
           <entry key="CSS" value="2" />
           <entry key="HTML" value="21" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="30" />
         </counts>
@@ -97,11 +97,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/test_sources.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                     <marker date="1535919118766" expanded="true" signature="93:98" ph="..." />
@@ -111,8 +111,8 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec.md">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
                   <first_editor />
@@ -208,8 +208,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+                <state relative-caret-position="495">
+                  <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
                   <folding>
                     <marker date="1535918617868" expanded="true" signature="15:20" ph="..." />
                   </folding>
@@ -249,6 +249,7 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/tests/test_sources.py" />
+        <option value="$PROJECT_DIR$/app/README.md" />
       </list>
     </option>
   </component>
@@ -352,7 +353,7 @@
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" weight="0.26989985" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.26989985" />
       <window_info id="Structure" order="1" sideWeight="0.501046" side_tool="true" weight="0.06483922" />
       <window_info id="Favorites" order="2" sideWeight="0.501046" side_tool="true" weight="0.06483922" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -549,13 +550,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_sources.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1535919118766" expanded="true" signature="93:98" ph="..." />
             <marker date="1535919118766" expanded="true" signature="656:974" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
