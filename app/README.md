@@ -16,7 +16,7 @@ As a user I would like:
 * python3.6
 * pip
 * Heroku CLI
-
+* Bootstrap
 
 ### Cloning
 * In your terminal:
@@ -33,8 +33,8 @@ As a user I would like:
 ## Testing the Application
 * To run the tests for the class file:
 
-        `python3.6 test_sources.py`
-        `python3.6 test_credentials.py`
+        `python3.6 test_models.py`
+   
 ## Technologies Used
 * Python3.6
 
