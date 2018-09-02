@@ -35,22 +35,24 @@ def request_news(category):
 
     return source_list
 
-def request_articles(source):
+def request_articles(author):
     '''
     Function to get the list of articles dictionary and make the from
     json to python dicts before conversion to objects
     '''
 
-    request_articles_url = articles_url.format(source, api_key)
+    request_articles_url = articles_url.format(author, api_key)
 
     with urllib.request.urlopen(request_articles_url) as url:
         request_articles_data = url.read()
         request_articles_response = json.loads(request_articles_data)
 
+        articles_list = None
 
+        if request_articles_response['articles']:
 
-        article_dict_list = request_articles_response
-        articles_list = process_articles(article_dict_list)
+            article_dict_list = request_articles_response['articles']
+            articles_list = process_articles(article_dict_list)
 
     return articles_list
 
@@ -91,10 +93,25 @@ def process_articles(source_news_dict_list):
         description = article.get('description')
         url = article.get('url')
         urlToImage = article.get('urlToImage')
+        #source = article.get('id')
 
-        article_object = Articles(title,author,description,url,urlToImage)
+
+        # for id in d.get('sources',()):
+        #     return ''
+
+        # source = None
+        #
+        # if article == 'source':
+        #     for key in article:
+        #         source = key.get('id')
+        #
+        #     return source
+
+
+        article_object = Articles(title,author,description,url,urlToImage,)
 
         articles_list.append(article_object)
 
     return articles_list
+
 

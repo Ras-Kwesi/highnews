@@ -20,11 +20,11 @@ def index():
 
     return render_template('index.html',title=title, general=general_news, sports = sports_news, science = science_news, business = business_news, tech = tech_news, enter = entertainment_news)
 
-@main.route('/articles/<source>')
-def article(source):
+@main.route('/articles/<author>')
+def article(author):
     '''
     The function to display our articles to the template
     '''
-    source = request_articles('source')
-    title = "Nuisance"
-    return render_template('articles.html', title = title , source = source)
+    author = request_articles(author)
+    title = "Newsance"
+    return render_template('articles.html', title = title , author = author)

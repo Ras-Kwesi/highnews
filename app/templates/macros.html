@@ -15,9 +15,9 @@
     {% endfor %}
 {% endmacro %}
 
-{% macro displayArtcle(articles_lists) %}
+{% macro displayArticle(source_news_dict_list) %}
 
-    {% for article in articles_list %}
+    {% for article in source_news_dict_list %}
 
         <div class="card">
             <img class="card-img-top" src="{{article.urlToImage}}" alt="">
