@@ -18,56 +18,39 @@
         {% endblock %}
     {% block content %}
         <h2> Your source of Not yet old content </h2>
-        <div class="jumbotron">
+
             <h2>General News Outlets</h2>
             <ul>
             {{ macro.displaySources(general) }}
             </ul>
 
-        </div>
-
-        <div class="jumbotron">
             <h2>Tech news Outlets</h2>
             <ul>
             {{ macro.displaySources(tech) }}
             </ul>
 
-        </div>
-
-
-        <div class="jumbotron">
             <h2>Sports News Outlets</h2>
             <ul>
             {{ macro.displaySources(sports) }}
             </ul>
 
-        </div>
 
 
-        <div class="jumbotron">
             <h2>Business News Outlets</h2>
             <ul>
             {{ macro.displaySources(business) }}
             </ul>
 
-        </div>
-
-        <div class="jumbotron">
-            <h2>General News Outlets</h2>
+                <h2>Entertainment News Outlets</h2>
             <ul>
             {{ macro.displaySources(enter) }}
             </ul>
 
-        </div>
-
-        <div class="jumbotron">
-            <h2>General News Outlets</h2>
+                <h2>Science News Outlets</h2>
             <ul>
             {{ macro.displaySources(science) }}
             </ul>
-
-        </div>
-    {% endblock %}
+        {% endblock %}
     </body>
 
 </html>
