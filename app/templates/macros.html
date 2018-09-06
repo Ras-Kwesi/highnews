@@ -1,9 +1,7 @@
 {% macro displaySources(sources_category_list) %}
 
     {% for source in sources_category_list %}
-        <div class="container-fluid"></div>
-            <div class="col-md-4">
-                <div class="card">
+                <div class="card" id="sourcesl" >
                     <div class="card-body">
                         <h5 class="card-title">{{source.name}}</h5>
                         <p class="card-text">{{source.description}}</p>
@@ -19,8 +17,7 @@
 {% macro displayArticle(source_news_dict_list) %}
 
     {% for article in source_news_dict_list %}
-        <div class="col-md-4">
-            <div class="card">
+            <div class="card" id="articlesl">
                 <img class="card-img-top" src="{{article.urlToImage}}" alt="">
                 <div class="card">
                     <div class="card-body">
