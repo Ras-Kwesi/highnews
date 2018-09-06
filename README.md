@@ -28,8 +28,9 @@ As a user I would like:
 * To run the application, in your terminal:
 
         `chmod +x run.py`
-        `./manage.py`
+        `./start.sh`
         
+* Add custom api key at the start.sh file received after opening an account at the newsApi.org
 ## Testing the Application
 * To run the tests for the class file:
 
