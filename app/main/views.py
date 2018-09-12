@@ -30,7 +30,7 @@ def articles(author):
     return render_template('articles.html', title = title , author = author)
 
 
-@main.route('/articles/<author>')
+@main.route('/articles/article/<author>')
 def article(author):
     '''
     Function to get a single article
