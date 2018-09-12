@@ -33,3 +33,14 @@ class Source:
         self.description = description
 
 
+class Article:
+    '''
+    Definition of the article object
+    '''
+
+    def __init__(self,author,title,description,url,urlToImage):
+        self.author = author
+        self.title = title
+        self.description = description
+        self.url = url
+        self.urlToImage = urlToImage

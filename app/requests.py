@@ -1,5 +1,5 @@
 import urllib.request,json
-from .models import Articles,Source
+from .models import Articles,Source,Article
 
 # Getting api key
 api_key = None
@@ -55,6 +55,32 @@ def request_articles(author):
             articles_list = process_articles(article_dict_list)
 
     return articles_list
+
+def request_article(author):
+    '''
+    Function to display a single article
+    '''
+
+    request_article_url = articles_url.format(author, api_key)
+
+    with urllib.request.urlopen(request_article_url) as url:
+        request_article_data = url.read()
+        request_article_response = json.loads(request_article_data)
+
+        article_object = None
+
+        if request_article_response:
+            author = request_article_response.get('author')
+            title = request_article_response.get('title')
+            description = request_article_response.get('description')
+            url = request_article_response.get('url')
+            urlToImage = request_article_response.get('urlToImage')
+
+            article_object = Article(author,title,description,urlToImage,url)
+
+    return article_object
+
+
 
 
 
