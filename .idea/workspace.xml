@@ -3,7 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="1c6e8044-93cf-4f98-8760-ead26b9d2ce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/Flask_Bootstrap-3.3.7.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/Flask_Bootstrap-3.3.7.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/Flask_Bootstrap-3.3.7.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/Flask_Bootstrap-3.3.7.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/Flask_Bootstrap-3.3.7.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/nav.py" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/nav.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/static/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/fixes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/utils.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/utils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/wtf.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtual/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/wtf.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +44,21 @@
     <session id="-861171406">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="23" />
           <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,9 +68,9 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="28" />
           <entry key="md" value="5" />
-          <entry key="py" value="42" />
+          <entry key="py" value="44" />
           <entry key="sh" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -49,8 +79,8 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="28" />
           <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="42" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -62,6 +92,7 @@
           <entry key="md" value="794" />
           <entry key="py" value="5161" />
           <entry key="sh" value="83" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -70,7 +101,7 @@
           <entry key="CSS" value="147" />
           <entry key="HTML" value="2120" />
           <entry key="Markdown" value="794" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="PLAIN_TEXT" value="49" />
           <entry key="Python" value="5161" />
         </counts>
       </usages-collector>
@@ -84,15 +115,6 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/requirements.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Procfile">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
@@ -105,7 +127,7 @@
             <entry file="file://$PROJECT_DIR$/app/templates/articles.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="405">
-                  <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+                  <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -120,6 +142,15 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/main/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/macros.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
@@ -128,7 +159,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/start.sh">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
@@ -153,7 +184,7 @@
             <entry file="file://$PROJECT_DIR$/app/templates/navigate.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
@@ -161,8 +192,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+                <state relative-caret-position="30">
+                  <caret line="2" selection-start-line="2" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/manage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret selection-end-line="1" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -179,6 +222,15 @@
                   <folding>
                     <marker date="1536069871120" expanded="true" signature="15:20" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/requirements.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -201,10 +253,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/test_sources.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="345">
                   <caret line="24" selection-start-line="24" selection-end-line="24" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
@@ -217,8 +269,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/test_articles.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+                <state relative-caret-position="165">
+                  <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -267,13 +319,15 @@
         <option value="$PROJECT_DIR$/app/templates/navigate.html" />
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/start.sh" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="-1" />
+    <option name="y" value="-11" />
+    <option name="width" value="1922" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -372,9 +426,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.13178703" />
+      <window_info id="Structure" order="1" sideWeight="0.501046" side_tool="true" weight="0.06483922" />
+      <window_info id="Favorites" order="2" sideWeight="0.501046" side_tool="true" weight="0.06483922" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973643" weight="0.3294979" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5002636" side_tool="true" visible="true" weight="0.31380752" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3294979" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.13178703" />
       <window_info id="Structure" order="1" sideWeight="0.501046" side_tool="true" weight="0.06483922" />
       <window_info id="Favorites" order="2" sideWeight="0.501046" side_tool="true" weight="0.06483922" />
@@ -392,7 +465,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -419,13 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="209" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -457,11 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1536069885003" expanded="true" signature="948:1575" ph="..." />
-            <marker date="1536069885003" expanded="true" signature="2320:2325" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,16 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -499,17 +550,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -520,6 +571,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/macros.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -527,10 +585,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="94" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="94" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/navigate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,19 +650,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_articles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_sources.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="345">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -579,34 +661,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/tests/test_articles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="32" column="94" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="94" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
