@@ -15,6 +15,8 @@
 {% macro displayArticle(source_news_dict_list) %}
 
     {% for article in source_news_dict_list %}
+        <div class="col-md-4">
+
             <div class="card" id="articlesl">
                 <img class="card-img-top" src="{{article.urlToImage}}" alt="">
                 <div class="card">
