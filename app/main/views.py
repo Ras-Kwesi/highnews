@@ -27,7 +27,7 @@ def articles(author):
     '''
     author = request_articles(author)
     title = "Newsance"
-    return render_template('articles.html', title = title , author = author)
+    return render_template('articless.html', title = title , author = author)
 
 
 @main.route('/articles/article/<author>')
