@@ -36,7 +36,7 @@ def article(author):
     Function to get a single article
     '''
 
-    article = request_article(author)
+    author = request_article(author)
     title = f'{article.title}'
 
-    return render_template('article.html', title = title)
+    return render_template('article.html', title = title, author = author)
